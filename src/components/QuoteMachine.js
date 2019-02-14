@@ -18,7 +18,7 @@ class QuoteMachine extends React.Component{
           </footer>
           </blockquote><br />
           <Button variant="primary" active onClick={this.props.newQuote}>New Quote</Button>{' '}
-          <a href={this.props.link} className="btn btn-social-icon btn-twitter"><span class="fa fa-twitter"></span></a>
+          <a href={this.props.link} className="btn btn-social-icon btn-twitter"><span className="fa fa-twitter"></span></a>
           </Card.Body>
         </Card>
     )

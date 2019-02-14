@@ -128,7 +128,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-          <QuoteMachine className="text-center pagination-centered" quote={this.state.presentQuote} author={this.state.presentAuthor} link={this.state.link} newQuote={this.showNewQuote} />
+          <QuoteMachine className="text-center" quote={this.state.presentQuote} author={this.state.presentAuthor} link={this.state.link} newQuote={this.showNewQuote} />
       </div>
     )
   }
